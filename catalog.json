@@ -1,0 +1,117 @@
+{
+  "version": "2026-10-07",
+  "cards": [
+    {
+      "id": "chase-sapphire-preferred",
+      "name": "Chase Sapphire Preferred",
+      "issuer": "Chase",
+      "annualFee": 95,
+      "rates": [
+        { "category": "dining", "multiplier": 3 },
+        { "category": "gas", "multiplier": 3, "note": "Gas stations & EV charging" },
+        { "category": "streaming", "multiplier": 3, "note": "Select streaming" },
+        { "category": "groceries", "multiplier": 3, "note": "Online groceries only (not Target, Walmart, wholesale clubs)" },
+        { "category": "travel", "multiplier": 2, "note": "5x if booked through Chase Travel" },
+        { "category": "flights", "multiplier": 2, "note": "5x via Chase Travel" },
+        { "category": "hotels", "multiplier": 2, "note": "5x via Chase Travel" },
+        { "category": "transit", "multiplier": 2 },
+        { "category": "rideshare", "multiplier": 2 }
+      ],
+      "benefits": [
+        { "id": "csp-hotel-credit", "name": "Chase Travel hotel credit", "amount": 100, "period": "cardYear", "category": "hotels",
+          "notes": "Hotels booked through Chase Travel." },
+        { "id": "csp-doordash-promo", "name": "DoorDash promo", "amount": 10, "period": "monthly", "category": "groceries",
+          "notes": "DashPass $10 monthly promo on non-restaurant orders, through Dec 31, 2027. Activate DashPass first." }
+      ],
+      "notes": "Global Entry / TSA PreCheck credit up to $120 every 4 years. 10% anniversary points bonus."
+    },
+    {
+      "id": "chase-freedom-flex",
+      "name": "Chase Freedom Flex",
+      "issuer": "Chase",
+      "rotating": true,
+      "rates": [
+        { "category": "dining", "multiplier": 3 },
+        { "category": "drugstore", "multiplier": 3 },
+        { "category": "dining", "multiplier": 7, "until": "2027-01-01", "note": "Q4 2026 bonus; $1,500 combined cap; activate by Dec 14" },
+        { "category": "groceries", "multiplier": 5, "until": "2027-01-01", "note": "Q4 2026; excludes Target & Walmart; $1,500 combined cap" }
+      ],
+      "notes": "5% on Chase Travel. If the card says Freedom Unlimited, it earns 1.5% base with no rotating categories."
+    },
+    {
+      "id": "chase-disney-visa",
+      "name": "Disney Visa",
+      "issuer": "Chase",
+      "notes": "1% in Disney Rewards Dollars, redeemable toward Disney purchases."
+    },
+    {
+      "id": "citi-costco-anywhere",
+      "name": "Costco Anywhere Visa",
+      "issuer": "Citi",
+      "rates": [
+        { "category": "gas", "multiplier": 4, "note": "Up to $7,000/yr combined, then 1%" },
+        { "category": "dining", "multiplier": 3 },
+        { "category": "travel", "multiplier": 3 },
+        { "category": "flights", "multiplier": 3 },
+        { "category": "hotels", "multiplier": 3 },
+        { "merchant": "Costco", "multiplier": 2 }
+      ],
+      "notes": "No fee with a Costco membership. Rewards come as an annual certificate in February."
+    },
+    {
+      "id": "discover-it",
+      "name": "Discover it",
+      "issuer": "Discover",
+      "rotating": true,
+      "rates": [
+        { "category": "dining", "multiplier": 5, "until": "2027-01-01", "note": "Q4 2026: restaurants, entertainment, utilities; $1,500 cap; activate" }
+      ]
+    },
+    {
+      "id": "fidelity-hsa",
+      "name": "Fidelity HSA Debit",
+      "issuer": "Fidelity",
+      "kind": "hsa",
+      "hsaLimit": 8750,
+      "notes": "2026 IRS limit for family coverage: $8,750 (+$1,000 catch-up if 55 or older)."
+    },
+    {
+      "id": "target-circle-card",
+      "name": "Target Circle Card",
+      "issuer": "TD Bank",
+      "baseMultiplier": 0,
+      "rates": [
+        { "merchant": "Target", "multiplier": 5, "note": "5% off in store and online, stacks with Target Circle deals; free shipping" }
+      ],
+      "notes": "Excludes prescriptions, gift cards and eye exams."
+    },
+    {
+      "id": "carters-credit-card",
+      "name": "Carter's Credit Card",
+      "issuer": "Comenity",
+      "baseMultiplier": 0,
+      "rates": [
+        { "merchant": "Carter's", "multiplier": 10, "note": "2 pts/$, 100 pts = $5 (~10%)" },
+        { "merchant": "OshKosh", "multiplier": 10, "note": "2 pts/$ (~10%)" },
+        { "merchant": "Skip Hop", "multiplier": 10, "note": "2 pts/$ (~10%)" }
+      ],
+      "benefits": [
+        { "id": "carters-anniversary-gift", "name": "Anniversary gift", "amount": 10, "period": "cardYear",
+          "notes": "$10 reward each cardholder anniversary." }
+      ],
+      "notes": "Only works at Carter's brands. One 3x points day per year; free standard shipping online."
+    },
+    {
+      "id": "ikea-family-visa",
+      "name": "IKEA Family Visa",
+      "issuer": "IKEA",
+      "rates": [
+        { "merchant": "IKEA", "multiplier": 5, "note": "5% back in IKEA rewards" },
+        { "merchant": "TaskRabbit", "multiplier": 5, "note": "Assembly services" },
+        { "category": "dining", "multiplier": 3 },
+        { "category": "groceries", "multiplier": 3, "note": "Also 3% on utilities" }
+      ],
+      "notes": "Rewards can only be redeemed at IKEA. Includes IKEA Family membership (free coffee, member prices)."
+    }
+  ]
+}
