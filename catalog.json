@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-07",
+  "version": "2026-10-08",
   "cards": [
     {
       "id": "chase-sapphire-preferred",
@@ -112,6 +112,20 @@
         { "category": "groceries", "multiplier": 3, "note": "Also 3% on utilities" }
       ],
       "notes": "Rewards can only be redeemed at IKEA. Includes IKEA Family membership (free coffee, member prices)."
+    },
+    {
+      "id": "chase-prime-visa",
+      "name": "Prime Visa",
+      "issuer": "Chase",
+      "rates": [
+        { "merchant": "Amazon", "multiplier": 5, "note": "With an eligible Prime membership; includes Amazon Fresh" },
+        { "merchant": "Whole Foods", "multiplier": 5, "note": "With an eligible Prime membership" },
+        { "category": "dining", "multiplier": 2 },
+        { "category": "gas", "multiplier": 2 },
+        { "category": "transit", "multiplier": 2, "note": "Local transit and commuting" },
+        { "category": "rideshare", "multiplier": 2 }
+      ],
+      "notes": "No annual fee (needs Prime for 5%). Also 5% on Chase Travel. Rewards usable at Amazon checkout or as cash back. Has Chase Offers."
     }
   ]
 }
