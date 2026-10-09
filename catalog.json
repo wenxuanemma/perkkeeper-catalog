@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-08",
+  "version": "2026-10-09",
   "cards": [
     {
       "id": "chase-sapphire-preferred",
@@ -27,16 +27,14 @@
     },
     {
       "id": "chase-freedom-flex",
-      "name": "Chase Freedom Flex",
+      "name": "Chase Freedom",
       "issuer": "Chase",
       "rotating": true,
       "rates": [
-        { "category": "dining", "multiplier": 3 },
-        { "category": "drugstore", "multiplier": 3 },
-        { "category": "dining", "multiplier": 7, "until": "2027-01-01", "note": "Q4 2026 bonus; $1,500 combined cap; activate by Dec 14" },
-        { "category": "groceries", "multiplier": 5, "until": "2027-01-01", "note": "Q4 2026; excludes Target & Walmart; $1,500 combined cap" }
+        { "category": "dining", "multiplier": 5, "until": "2027-01-01", "note": "Q4 2026; $1,500 combined cap with groceries & Red Cross; activate by Dec 14" },
+        { "category": "groceries", "multiplier": 5, "until": "2027-01-01", "note": "Q4 2026; excludes Walmart, Target, warehouse clubs; $1,500 combined cap" }
       ],
-      "notes": "5% on Chase Travel. If the card says Freedom Unlimited, it earns 1.5% base with no rotating categories."
+      "notes": "Original Chase Freedom (closed to new applicants): 5% in quarterly categories after activation, 1% on everything else. Unlike Freedom Flex, no 3% dining/drugstore and no 5% Chase Travel. Q4 2026 also includes American Red Cross donations."
     },
     {
       "id": "chase-disney-visa",
