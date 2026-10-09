@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-09",
+  "version": "2026-10-09.2",
   "cards": [
     {
       "id": "chase-sapphire-preferred",
@@ -23,7 +23,7 @@
         { "id": "csp-doordash-promo", "name": "DoorDash promo", "amount": 10, "period": "monthly", "category": "groceries",
           "notes": "DashPass $10 monthly promo on non-restaurant orders, through Dec 31, 2027. Activate DashPass first." }
       ],
-      "notes": "Global Entry / TSA PreCheck credit up to $120 every 4 years. 10% anniversary points bonus."
+      "notes": "Global Entry / TSA PreCheck credit up to $120 every 4 years."
     },
     {
       "id": "chase-freedom-flex",
@@ -47,7 +47,7 @@
       "name": "Costco Anywhere Visa",
       "issuer": "Citi",
       "rates": [
-        { "category": "gas", "multiplier": 4, "note": "Up to $7,000/yr combined, then 1%" },
+        { "category": "gas", "multiplier": 4, "note": "5% at Costco gas stations, 4% at other gas & EV charging; $7,000/yr combined, then 1%" },
         { "category": "dining", "multiplier": 3 },
         { "category": "travel", "multiplier": 3 },
         { "category": "flights", "multiplier": 3 },
