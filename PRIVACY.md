@@ -1,6 +1,6 @@
 # PerkKeeper Privacy Policy
 
-_Last updated: October 9, 2026_
+_Last updated: October 12, 2026_
 
 PerkKeeper is a personal app for tracking credit card benefits within a family. We do not collect, sell or share your personal data.
 
@@ -14,6 +14,9 @@ PerkKeeper is a personal app for tracking credit card benefits within a family. 
 
 **Photos**
 - Optional. Screenshots you pick for offer import are read on your device and are not stored or uploaded.
+
+**Safari extension**
+- Optional. When turned on, it checks the website you're on against your PerkKeeper data on your device to suggest a card. Website addresses are not sent anywhere or kept; the only thing remembered is, on your device, which sites you closed the banner on, for 12 hours.
 
 **Network requests**
 - The app downloads a public list of card benefits from GitHub. This request contains no personal data; GitHub may log your IP address as with any website.
