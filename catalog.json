@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-09.2",
+  "version": "2026-11-01",
   "cards": [
     {
       "id": "chase-sapphire-preferred",
@@ -32,7 +32,9 @@
       "rotating": true,
       "rates": [
         { "category": "dining", "multiplier": 5, "until": "2027-01-01", "note": "Q4 2026; $1,500 combined cap with groceries & Red Cross; activate by Dec 14" },
-        { "category": "groceries", "multiplier": 5, "until": "2027-01-01", "note": "Q4 2026; excludes Walmart, Target, warehouse clubs; $1,500 combined cap" }
+        { "category": "groceries", "multiplier": 5, "until": "2027-01-01", "note": "Q4 2026; excludes Walmart, Target, warehouse clubs; $1,500 combined cap" },
+        { "category": "groceries", "multiplier": 5, "until": "2027-04-01", "note": "Q1 2027 (Jan-Mar); excludes Walmart, Target; $1,500 combined cap with streaming; activate each quarter" },
+        { "category": "streaming", "multiplier": 5, "until": "2027-04-01", "note": "Q1 2027 (Jan-Mar); select streaming services; $1,500 combined cap with groceries; activate each quarter" }
       ],
       "notes": "Original Chase Freedom (closed to new applicants): 5% in quarterly categories after activation, 1% on everything else. Unlike Freedom Flex, no 3% dining/drugstore and no 5% Chase Travel. Q4 2026 also includes American Red Cross donations."
     },
